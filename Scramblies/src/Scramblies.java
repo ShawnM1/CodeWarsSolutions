@@ -26,6 +26,7 @@ public class Scramblies {
 			if (str2Map.containsKey(currentChar)) {
 				int value = str2Map.get(currentChar);
 				value++;
+				
 				str2Map.put(currentChar, value);
 
 			} else {
