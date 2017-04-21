@@ -26,7 +26,6 @@ public class LuckyTicket {
 			if (sumFirst == sumLast) {
 				numOfLuckyTickets++;
 			}
-
 		}
 		return numOfLuckyTickets;
 	}
